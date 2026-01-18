@@ -232,3 +232,7 @@ LANGUAGE_NAMES = {
     "zh_Hans_CN": _("Chinese (Simplified, China)"),
     "zh_Hant_TW": _("Chinese (Traditional, Taiwan)"),
 }
+
+# NOTE: Keep "com" as the first entry, whichever region is first is the default region until one is chosen by the admin
+# or the user. All other regions should be kept in alphabetical order.
+AMAZON_REGIONS = ["com", "ca", "co.jp", "co.uk", "com.au", "com.mx", "de", "es", "fr", "ie", "in", "it"]
